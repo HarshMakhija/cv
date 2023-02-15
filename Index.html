@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Harsh's First Site</title>
+</head>
+
+<body>
+    
+    <!-- IMAGES IN HTML -->  
+    <!-- Image tag is a self closing tag.-->
+    <!-- It uses src tag which indicates either url from web or the image should be in same directory as this .html file-->
+    <img src="Profile_Pic.jpeg" alt="Harsh Profile Picture" height="130" width="100">
+
+    <h1> Harsh Makhija </h1>
+    <!-- Now we use <em>(emphasis) and <strong> tag for making below text Italic and Bold.-->
+    <p><em> Founder and CTO of <a href="file:///Users/1136harshgmail.com/Documents/%20Html,Css,Js/4.%20Website-1/Website1.html"><strong>HM Motors</strong>.</a></em></p>
+    <p>I am an Android and Web Developer. I love coffee and tea both. But most of the time I prefer coffee over tea. </p>
+    <hr>
+
+    <!-- LISTS IN HTML -->
+    <!-- Now we'll use <ul> and <ol> tags for lists in Html.-->
+    <h3> Education </h3>
+    <ul>
+        <li> S.S.C From School Of Achievers, Kudasan, in 2019.</li>
+        <li> H.S.C From School Of Achievers, Kudasan, in 2021.</li>
+        <li> B.C.A From Sk Institute Of Computer Application, Currently Studying.</li>
+    </ul>
+
+    <!-- TABLES IN HTML -->
+    <!-- For rows in table we use <tr> tags and for cells of rows, we use <td> tags.-->
+    <!-- Tables also have headers, body and Footers, with tags <thead>,<tbody>,&<tfoot>.-->
+    <!-- Inside <thead> we have to use <th> instead of <td>.-->
+    <!-- We can also look for attributes in tables in w3schools like cellspacing, cellpadding, etc.-->    
+    <h3> Work Experience </h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Dates</th>
+                <th>Work</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2019-2021</td>
+                <td>Developer at Google Inc. </td>
+            </tr>
+            <tr>
+                <td>2021-2023</td>
+                <td>IT Manager at Infosys Inc. </td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <!-- LINKS IN HTML -->
+    <!-- We use <a>(anchor) tag and herf attribute in html for generating Links.-->
+    <!-- I want to add link in HM Motors, so to look for <a> tag, refer near HM Motors.-->
+    <!-- To open a new page through link, we will create new file in same directory called hobbies.html and call it in <a> tag.-->
+    <a href="hobbies.html"> My Hobbies</a><br>
+    <a href="contact-me.html"> Contact Me </a>
+
+    <!-- FORMS IN HTML 
+       -> we use form element to create form.
+       -> we use <label> and <input> tags for forms.
+       -> Forms are practiced in contactme.html..
+       -> we can check out other attributes of forms in MDN web docs or in W3schools.
+       -> we can also refer to the types of inputs like checkbox,text,color,etc.
+       -> we can use "mailto:(email)" in "action" attribute in form element. This will open default mail with
+          email address and the info we put in form will be transferred to mail..
+       -> we can use attribute 'enctype' (encoding type) and set it to "text/plain" in form element. 
+       -> This will specify that the data in our form is encoded in plain text. After this, we will only 
+          have plain text in mail instead of % signs.
+       -> we can also use 'name' attribute in <input> element. we can set name as "yourName". This "yourName" 
+          will show as a Label in a mail that we covered in above point. 
+       -> Note: Textarea is an element inside form not a input type.
+                If you do not mention 'method' attribute as "post" inside form element, then data won't be 
+                posted in email..
+        -->
+
+    
+    <!-- PUBLISHING WEBSITE USING GITHUB.-->
+    <!-- -> sign up for github on web. 
+         -> we'll learn what is github in detail in next sections.
+         -> repository is a folder on cloud which contain all project files. it can be public and private.
+         -> -->
+
+</body>
+
+</html>
